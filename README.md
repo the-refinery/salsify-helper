@@ -1,6 +1,6 @@
-# salsifyhelper plugin for Craft CMS 3.x
+# Salsify Helper plugin for Craft CMS 3.x
 
-Helper function for Feed Me Salsify
+Helper function for Salsify feeds
 
 ![Screenshot](resources/img/plugin-logo.png)
 
