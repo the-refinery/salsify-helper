@@ -28,7 +28,7 @@ To install the plugin, follow these instructions.
 
 3. Then tell Composer to load the plugin:
 
-        composer require salfsify-helper/salsifyhelper
+        composer require therefinery/salsifyhelper
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for salsifyhelper.
 
