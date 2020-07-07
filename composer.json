@@ -1,0 +1,41 @@
+{
+    "name": "therefinery/salsifyhelper",
+    "description": "Helper function for Feed Me Salsify",
+    "type": "craft-plugin",
+    "version": "3.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "salsifyhelper"
+    ],
+    "support": {
+        "docs": "https://github.com/the-refinery/salsify-helper/blob/master/README.md",
+        "issues": "https://github.com/therefinery/salsify-helper/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "The Refinery",
+            "homepage": "https://the-refinery.io"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "therefinery\\salsifyhelper\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Salsify Helper",
+        "handle": "salsifyhelper",
+        "developer": "The Refinery",
+        "developerUrl": "https://the-refinery.io",
+        "documentationUrl": "https://github.com/the-refinery/salsify-helper/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/the-refinery/salsify-helper/master/CHANGELOG.md",
+        "class": "therefinery\\salsifyhelper\\Salsifyhelper"
+    }
+}
