@@ -45,6 +45,11 @@ class SalsifyhelperTwigExtension extends AbstractExtension
         ];
     }
 
+    public getParentValue($fieldName, $parent)
+    {
+        return $parent->$fieldName;
+    }
+
     public function checkForInheritedValue($fieldName, $entry, $parent)
     {
         if (isset($entry->$fieldName) && !empty($entry->$fieldName)){
