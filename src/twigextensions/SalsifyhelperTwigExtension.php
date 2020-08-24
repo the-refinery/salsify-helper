@@ -40,12 +40,13 @@ class SalsifyhelperTwigExtension extends AbstractExtension
     public function getFilters()
     {
         return [
+            new TwigFilter('getParentValue', [$this, 'getParentValue']),
             new TwigFilter('checkForInheritedValue', [$this, 'checkForInheritedValue']),
             new TwigFilter('productionUrl', [$this, 'productionUrl']),
         ];
     }
 
-    public getParentValue($fieldName, $parent)
+    public function getParentValue($fieldName, $parent)
     {
         return $parent->$fieldName;
     }
