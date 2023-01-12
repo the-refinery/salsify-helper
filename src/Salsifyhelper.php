@@ -1,11 +1,11 @@
 <?php
 /**
- * salsifyhelper plugin for Craft CMS 3.x
+ * salsifyhelper plugin for Craft CMS 4.x
  *
  * Helper function for Feed Me Salsify
  *
  * @link      https://the-refinery.io
- * @copyright Copyright (c) 2020 The Refinery
+ * @copyright Copyright (c) 2023 The Refinery
  */
 
 namespace therefinery\salsifyhelper;
@@ -55,7 +55,7 @@ class Salsifyhelper extends Plugin
      *
      * @var string
      */
-    public $schemaVersion = '3.0.0';
+    public $schemaVersion = '4.0.0';
 
     /**
      * Set to `true` if the plugin should have a settings view in the control panel.
