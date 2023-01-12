@@ -3,7 +3,7 @@
     "description": "Helper function for Feed Me Salsify",
     "type": "craft-plugin",
     "version": "4.0.0",
-    "schemaVersion": "4.0.0'
+    "schemaVersion": "4.0.0",
     "keywords": [
         "craft",
         "cms",
